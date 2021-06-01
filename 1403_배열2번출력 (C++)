@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int k;
+	cin >> k;
+	int br[100];
+	for (int i = 0; i < k; i++) {
+		cin >> br[i];
+	}
+	for (int j = 0; j <= 1; j++) {
+		for (int i = 0; i < k; i++) {
+			cout << br[i] << endl;
+		}
+	}
+	return 0;
+}
